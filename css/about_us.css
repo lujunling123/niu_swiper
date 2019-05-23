@@ -1,0 +1,36 @@
+.aboutUs_content{padding-top: 50px;}
+.aboutUs_content_one img{width:100%;}
+.aboutUs_content_two_Box{width:100%;height:609px;background:#fafafa;}
+.aboutUs_content_two{margin:0 auto;padding-top:50px;width:75pc;}
+.title{position:relative;margin:0 auto;width:90pt;height:19px;color:#3b3c44;text-align:center;font-weight:500;font-size:1.25rem;font-family:PingFangSC-Medium;line-height:1.1875rem;}
+.title:before{bottom:-10px;margin-left:-60px;width:90pt;height:1px;background:#aaaaac;}
+.title:after,.title:before{position:absolute;left:50%;content:'';}
+.title:after{bottom:-9pt;margin-left:-19px;width:38px;height:5px;background:#1b8ff9;}
+.two_context{position:relative;margin-top:45px;}
+.two_context .two_context_text{position:absolute;top:34px;right:0;z-index:1;padding:27px 27px 0 50px;width:693px;height:296px;background:#fff;}
+.two_context .pic{position:absolute;top:0;left:0;width:529px;height:22pc;}
+.three_context .p2,.two_context_text .p1{margin-bottom:1pc;color:#1b1b24;text-indent:28px;font-weight:400;font-size:.875rem;font-family:PingFangSC-Regular;line-height:1.5rem;}
+.left_icon{position:absolute;top:162px;left:488px;z-index:2;width:38px;height:38px;}
+.two_context_text .text{position:relative;margin-right:43px;margin-left:10px;}
+.two_context_text .text:after{position:absolute;bottom:0;left:-10px;width:4px;height:36px;background:#1b8ff9;content:'';}
+.two_context_text .text span{margin-top:15px;height:9pt;font-size:9pt;line-height:9pt;}
+.three_context .p2,.two_context_text .text span{color:#1b1b24;font-weight:400;font-family:PingFangSC-Regular;}
+.three_context .p2{margin-bottom:1pc;text-indent:28px;font-size:.875rem;line-height:.9375rem;}
+.three_context .p1{margin-top:34px;margin-bottom:11px;height:1pc;color:#1b1b24;font-weight:500;font-size:1pc;font-family:PingFangSC-Medium;line-height:1pc;}
+.three_context .p3{position:relative;margin:45px auto 66px;width:760px;height:284px;background:url(../image/aboutus04.png) no-repeat 100% 284px;background-position:0 0;}
+.block{position:absolute;top:83px;width:168px;color:#1b1b24;text-align:left;font-weight:400;font-size:.875rem;font-family:PingFangSC-Regular;line-height:1.5rem;}
+.block p{margin-bottom:24px;color:#1b1b24;text-align:center;font-weight:500;font-size:1.25rem;font-family:PingFangSC-Medium;line-height:1pc;}
+.block span{font-size:.875rem;}
+.aboutUs_content_four{margin:0 auto;padding-top:69px;width:75pc;}
+.four_context{position:relative;}
+.four_context_text{position:absolute;top:7pc;z-index:1;padding:52px 4pc 51px;width:693px;height:234px;background:#fff;}
+.four_context_text .p1{padding-bottom:1pc;color:#1b1b24;font-weight:500;font-size:1pc;font-family:PingFangSC-Medium;line-height:1pc;}
+.four_context_text .p2{height:99px;color:#1b1b24;font-weight:400;font-size:.875rem;font-family:PingFangSC-Regular;line-height:1.75rem;}
+.four_context .right_icon{position:absolute;top:214px;left:7in;z-index:2;}
+.aboutUs_content_four .pic{position:absolute;top:4pc;left:671px;z-index:0;}
+.five_p1{margin:0 auto;padding-top:27px;padding-bottom:68px;width:838px;color:#1b1b24;text-align:left;text-indent:28px;font-weight:400;font-size:.875rem;font-family:PingFangSC-Regular;line-height:1.5rem;}
+.five_p3{position:relative;margin:0 auto 115px;width:691px;height:222px;background:url(../image/aboutus05.png) no-repeat 100% 284px;background-position:0 0;}
+.five_block_top{top:47px;color:#3b3b40;}
+.five_block_bottom,.five_block_top{position:absolute;font-weight:500;font-size:.875rem;font-family:PingFangSC-Medium;line-height:.875rem;}
+.five_block_bottom{top:163px;color:#fff;}
+#wrapper{margin:0 auto;width:75pc;height:25pc;}

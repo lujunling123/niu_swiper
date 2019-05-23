@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="renderer" content="webkit">
+<meta name="baidu-site-verification" content="TFeDxSAPUx" />
+<meta name="description" content="杭州宗盛智能科技有限公司（以下简称“宗盛智能”）由娃哈哈创始人宗庆后、宗泽后共同投资设立，依托娃哈哈强大的品牌背书与渠道优势，以自动售货机、无人商超、社区经济智能终端为载体，以区块链、大数据、云计算信息技术为手段，协助传统零售向新零售转型升级。">
+<meta name="author" content="杭州宗盛智能科技有限公司">
+<meta name="keywords" content="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能,饮料机,弹簧机,综合机,售货机,咖啡机售货机,格子柜售货机,智能零售售货机,智能货柜售卖机,无人零售便利店,自动售货机,贩卖机,售卖机,无人便利店,无人超市">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<title>杭州宗盛智能科技有限公司</title>
+<link rel="shortcut icon" href="logo.png">
+<link rel="bookmark" href="logo.png">
+<link rel="stylesheet" href="css/about_us.css" />
+<link rel="stylesheet" href="css/head.css" />
+    <!-- <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+	<style>
+		.amap-marker-label{
+			/* margin-left: 12px; */
+			width: 263px;
+			right: 15px !important;
+			top: -32px !important;
+			left: -287px !important;
+			padding: 0 !important;
+			border:none !important;
+			background: rgba(255,255,255,1);
+			border-radius: 4px;
+		}
+		.markerTemp_left{
+			position: relative;
+			white-space: initial;
+			width:263px;
+			height: 117px;
+			padding: 24px 38px 21px 20px;
+			background:rgba(255,255,255,1);
+			border-radius:4px;
+			font-size:14px;
+			font-family:PingFangSC-Regular;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:24px;
+		}
+		.markerTemp_left .pic{
+			float: left;
+			margin-right: 8px;
+			margin-top: 3px;
+		}
+		.markerTemp_left .title_{
+			float: right;
+    	width: 177px;
+		}
+		.markerTemp_left::after{
+			position: absolute;
+			top: 51.5px;
+			right: -14px;
+			content: '';
+			width: 0;
+			height: 0;
+			border-top: 7px solid transparent;
+			border-left: 14px solid white;
+			border-bottom: 7px solid transparent;
+		}
+	</style>
+	<script>
+		//初始化地图插件
+		window.onload = function(){
+			var map = new AMap.Map('wrapper', {
+				resizeEnable: true,
+				center:[119.963976,30.2703],
+        zoom:15
+    });
+		//创建一个Marker实例：
+		var markerTemp = new AMap.Marker({
+				position : [119.963976,30.2703],
+				offset : new AMap.Pixel(-21,-21),//偏移量，默认以marker左上角位置为基准点				
+				icon :'image/position.png',
+				map : map
+		});
+		markerTemp.setMap(map);
+		    //设置鼠标划过点标记显示的文字提示
+		    markerTemp.setTitle("杭州宗盛智能科技有限公司");
+		    markerTemp.setLabel({
+		        offset: new AMap.Pixel(15, 15),
+		        content: "<div class='markerTemp_left'><img class='pic' src='image/position02.png'/><p class='title_'>浙江省杭州市余杭区文一西路1818-2号中国人工智能小镇7号楼4-5F</p></div>"
+		    });
+				}
+	</script>
+</head>
+<body>
+	<header id="header">
+		<div class="header_">			
+			<ul class="navbars_">
+				<li class="logo">
+					<a href="index.html"><img src="image/logo.png" alt="宗盛商业"></a>
+				</li>
+				<li class="link"><a href="index.html">首页</a></li>
+				<li id="prod" class="link">
+					<a id="project_link">产品介绍</a>
+				</li>
+				<li class="link"><a href="shopshow.html">商城</a></li>
+				<li class="link"><a href="new.html">新闻</a></li>
+				<li class="link link_active"><a href="about_us.html">关于我们</a></li>
+			</ul>
+		</div>
+		<!-- 下拉选择		 -->
+		<div id="project_show">
+			<ul>
+				<li><a href="spring_machine.html" >
+					<img src="image/project03.png" alt="弹簧机"/>
+					<p>弹簧机</p></a>
+				</li>
+				<li><a href="arm_machine.html">
+					<img src="image/project05.png" alt="机械臂机"/>
+					<p>机械臂机</p></a>
+				</li>
+				<li><a href="beverage_machine.html">
+					<img src="image/project02.png" alt="蛇形货道机"/>
+					<p>蛇形货道机</p></a>
+				</li>
+				<li><a href="semi_open_machine.html">
+					<img src="image/project01.png" alt="智能货柜"/>
+					<p>智能货柜</p></a>
+				</li>
+				<li><a href="https://zsmall.zongs365.com/#/machine?qwerqwre=4" target="_blank">
+					<img src="image/project04.png" alt="智能零售售货机"/>
+					<p>特殊机型</p></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+  <div class="aboutUs_content clearfix">
+    <div class="aboutUs_content_one">
+			<img src="./image/aboutus03.png" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能">
+		</div>
+    <div id="aboutUs_01" class="aboutUs_content_two_Box">
+      <div class="aboutUs_content_two">
+          <p class="title">公司介绍</p>
+          <div class="two_context">
+            <img class="pic" src="./image/aboutus01.png" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能"/>
+            <div class="two_context_text">
+              <p class="p1">杭州宗盛智能科技有限公司（以下简称“宗盛智能”）由娃哈哈创始人宗庆后、宗泽后共同投资设立，依托娃哈哈强大的品牌背书与渠道优势，以自动售货机、无人商超、社区经济智能终端为载体，以区块链、大数据、云计算信息技术为手段，协助传统零售向新零售转型升级。</p>
+              <p class="p1">宗盛智能成立于2016年05月17日，截止2019年05月份，面向中国各省市地区，铺设智能终端30000台，获取大客户数据2亿人次以上，累计销售金额8亿人民币左右。宗盛智能利用两年探索与实践，搭建了一站式智能终端后台管理系统。整合销售管理、渠道拓展、商品合作、设备运营、客户服务等营销功能，同时具备广告管理、采购管理、财务管理人力资源管理、行政管理等管理功能。</p>
+              <div class="text fl">
+                <p style="font-size:16px;margin-bottom: 8px;">宗泽后&nbsp;<span>创始人</span></p>
+                <span>杭州宗盛智能科技有限公司董事长（左）</span>
+              </div>
+              <div class="text fl">
+                <p style="font-size:16px;margin-bottom: 8px;">宗庆后&nbsp;<span>联合创始人</span></p>
+                <span>娃哈哈集团董事长（右）</span>
+              </div>
+            </div>
+            <img class="left_icon" src="./image/left_icon.png" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能"/>
+          </div>
+      </div>
+    </div>
+    <div class="aboutUs_content_two clearfix">
+      <p class="title">企业愿景</p>
+      <div class="three_context tc">
+        <p class="p1" >“将宗盛智能打造成为新零售一站式服务平台”</p>
+        <p class="p2" >宗盛智能中期规划（2019-2021年），面向全国铺设智能终端设备10万台，自有品牌连锁运营无人商超100家，整合1万个社区驿站。</p>
+        <div class="p3">
+          <div class="block" style="left: 66px;color:rgba(255,255,255,1);">
+						<p style="color: rgba(255,255,255,1);">2019<span>年度</span></p>
+              强化宗盛智能终端后台管理系统，通过大数据整合自动售货机信息流
+          </div>
+          <div class="block" style="left: 317px;">
+						<p>2020<span>年度</span></p>
+              搭建宗盛社区经济资源共享平台，通过区块链整合数字货币资金流
+          </div>
+          <div class="block" style="left: 553px;">
+						<p>2021<span>年度</span></p>
+              打造宗盛智慧零售一站式服务商，通过人工智能整合新零售商业流              
+          </div>
+        </div>
+      </div>
+    </div>
+		<!-- 企业价值观 -->
+		<div id="aboutUs_02" class="aboutUs_content_two_Box" style="height: 597px;">			
+			<div class="aboutUs_content_four clearfix">
+			  <p class="title">企业价值观</p>			  
+			  <div class="four_context">
+			    <div class="four_context_text">
+			      <p class="p1">“各尽所能 各取所需”</p>
+			      <p class="p2">宗盛智能倡导搭建共享经济智能平台，利用信息技术互联线下经济模式。以新零售为流量入口，通过大数据分析客户其他衍生需求，淡化企业与个人、甲方与乙方的边界，创建一个以需求为导向、以创利为目的的共享平台。力争做到人与人之间不再“标签化、等级化”的普惠资源链，每个人都是利益的创造者，同时也是利益的分配者。</p>
+			    </div>
+			    <img class="right_icon" src="./image/right_icon.png" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能"/>
+			    <img class="pic" src="./image/aboutus02.png" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能"/>
+			  </div>
+			</div>
+		</div>
+		<!-- 团队介绍 -->
+    <div id="aboutUs_03" class="aboutUs_content_two clearfix">
+      <p class="title">团队介绍</p>
+      <div class="three_context tc">
+        <p class="five_p1" >宗盛智能科技有限公司成立于2016年5年17日，现在已经拥有100多名新零售领域专业资深人员。各中心在工作中互相依靠，互相补充，充分发挥自己的力量，为各位消费者带来完善，极致的用户体验。</p>
+        <div class="five_p3">
+          <div class="five_block_top" style="left:129px;">市场运营中心</div>
+          <div class="five_block_top" style="left:364px;">采购管理中心</div>
+					<div class="five_block_top" style="left:617px;">科研院</div>
+					<div class="five_block_bottom" style="left:12px;">企业管理中心</div>
+          <div class="five_block_bottom" style="left:246px;">信息技术中心</div>
+          <div class="five_block_bottom" style="left:483px;">财务管理中心</div>
+        </div>
+      </div>
+    </div>
+		<!-- 地图 -->
+		<div class="aboutUs_content_two_Box" style="height: 401px;">			
+			<div id="wrapper"></div>
+		</div>
+  </div>
+	<footer>
+		<div class="footers">
+			<ul>
+				<li>
+					<p>了解产品</p>
+					<span><a href="./spring_machine.html">弹簧机</a></span>
+					<span><a href="./arm_machine.html">机械臂机</a></span>
+					<span><a href="./beverage_machine.html">蛇形货道机</a></span>
+					<span><a href="./semi_open_machine.html">智能货柜</a></span>
+					<span><a href="https://zsmall.zongs365.com/#/machine?qwerqwre=4" target="_blank">特殊机型</a></span>
+				</li>
+				<li>
+					<p>帮助中心</p>
+					<span><a href="machineexplain.html">设备租赁指南</a></span>
+					<span><a href="goodsexplain.html">商品购买指南</a></span>
+					<!-- <span>支付方式</span>
+					<span>配送方式</span>
+					<span>订单查询</span>
+					<span>售后政策</span>
+					<span>维修视频</span>
+					<span>操作手册</span> -->
+				</li>
+				<li>
+					<p>关于我们</p>
+					<span><a href="./about_us.html#aboutUs_01">公司介绍</a></span>
+					<span><a href="./about_us.html#aboutUs_02">公司价值观</a></span>
+					<span><a href="./about_us.html#aboutUs_03">团队介绍</a></span>
+				</li>
+				<li>
+					<p>媒体中心</p>
+					<span><a href="new.html">新闻</a></span>
+				</li>
+				<li><p style="text-align: center;">关注我们</p>
+					<span><img class="pic" src="image/rcode.jpg" alt="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能"/></span>
+				</li>
+				<li><p>客服</p>
+					<span>400-759-0001</span>
+					<span>周一至周五 9:00到18:00</span>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&zoom=10&key=18b5d03732fd895f166a1f3775ea6258"></script>
+	<script type="text/javascript" src="js/jquery_3.3.2.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

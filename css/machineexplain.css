@@ -1,0 +1,13 @@
+
+.machine_plan_content{
+  width: 100%;
+  background: #f2f2f2;
+}
+.machine_plan_box{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center
+}
+.machine_plan_box img{
+  width: 100%;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="renderer" content="webkit">
+<meta name="baidu-site-verification" content="TFeDxSAPUx" />
+<meta name="description" content="杭州宗盛智能科技有限公司（以下简称“宗盛智能”）由娃哈哈创始人宗庆后、宗泽后共同投资设立，依托娃哈哈强大的品牌背书与渠道优势，以自动售货机、无人商超、社区经济智能终端为载体，以区块链、大数据、云计算信息技术为手段，协助传统零售向新零售转型升级。">
+<meta name="author" content="杭州宗盛智能科技有限公司">
+<meta name="keywords" content="杭州宗盛智能科技有限公司,杭州宗盛,宗盛智能,饮料机,弹簧机,综合机,售货机,咖啡机售货机,格子柜售货机,智能零售售货机,智能货柜售卖机,无人零售便利店,自动售货机,贩卖机,售卖机,无人便利店,无人超市">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<title>杭州宗盛智能-智能无人售货机</title>
+<link rel="shortcut icon" href="logo.png">
+<link rel="bookmark" href="logo.png">
+<link rel="shortcut icon" href="logo.png">
+<link rel="bookmark" href="logo.png">
+<link rel="stylesheet" href="css/swiper.min.css"> 
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/head.css" />
+<script type="text/javascript" src="js/jquery_3.3.2.js"></script>
+	<script src="js/swiper.min.js"></script>
+<script>  
+	$(document).ready(function () {
+		var i=0
+		var mySwiper = new Swiper('.swiper-container',{
+			// speed:1000,
+			autoplay: {
+				delay: 4000,//1秒切换一次
+			},
+			loop: true,
+			parallax : true,
+			on:{
+				slideChangeTransitionStart: function(){
+					// document.getElementsByClassName('h1')[this.activeIndex].style.opacity='1'
+					document.getElementsByClassName('text')[this.activeIndex].style.display='block'
+					document.getElementsByClassName('textd')[this.activeIndex].style.display='none'
+					document.getElementsByClassName('textd')[this.activeIndex].style.width='0%'
+					document.getElementsByClassName('text')[this.activeIndex].style.width='100%'
+					i=this.activeIndex
+					console.log(document.getElementsByClassName('h1')[this.activeIndex])
+				},
+				transitionEnd: function(){
+						document.getElementsByClassName('textd')[this.activeIndex].style.display='block'
+						document.getElementsByClassName('text')[this.activeIndex].style.display='none'
+						document.getElementsByClassName('text')[this.activeIndex].style.width='0%'
+					setTimeout(function(){
+						document.getElementsByClassName('textd')[i].style.width='50%'
+						// document.getElementsByClassName('h1')[i].style.opacity='0'
+						console.log('ddd')
+					},500)
+				}
+  		},
+    })
+	}) 
+</script>
+</head>
+<body>
+	<header id="header">
+		<div class="header_">			
+			<ul class="navbars_">
+				<li class="logo">
+					<a href="index.html"><img src="image/logo.png" alt="宗盛商业"></a>
+				</li>
+				<li class="link link_active"><a href="index.html">首页</a></li>
+				<li id="prod" class="link">
+					<a id="project_link">产品介绍</a>
+				</li>
+				<li class="link"><a href="shopshow.html">商城</a></li>
+				<li class="link"><a href="new.html">新闻</a></li>
+				<li class="link"><a href="about_us.html">关于我们</a></li>
+			</ul>
+		</div>
+		<!-- 下拉选择		 -->
+		<div id="project_show">
+			<ul>
+				<li><a href="spring_machine.html" >
+					<img src="image/project03.png" alt="弹簧机"/>
+					<p>弹簧机</p></a>
+				</li>
+				<li><a href="arm_machine.html">
+					<img src="image/project05.png" alt="机械臂机"/>
+					<p>机械臂机</p></a>
+				</li>
+				<li><a href="beverage_machine.html">
+					<img src="image/project02.png" alt="蛇形货道机"/>
+					<p>蛇形货道机</p></a>
+				</li>
+				<li><a href="semi_open_machine.html">
+					<img src="image/project01.png" alt="智能货柜"/>
+					<p>智能货柜</p></a>
+				</li>
+				<li><a href="https://zsmall.zongs365.com/#/machine?qwerqwre=4" target="_blank">
+					<img src="image/project04.png" alt="智能零售售货机"/>
+					<p>特殊机型</p></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="centet">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img class="dsfadf" src="https://img.niucache.com/service/www/slider/e24985b85efa90591c63fbda819e57f6.jpg"/>
+					<h1 class="h1" data-swiper-parallax="1" data-swiper-parallax-opacity="0"  style="color:rgb(172, 1, 14)">NEW ARRIVAL</h1>
+					<div class="text" style="background: rgb(172, 1, 14);"></div>
+					<div class="textd" style="background: #fff;"></div>
+				</div>
+				<div class="swiper-slide">
+					<img  class="dsfadf" src="./image/64a71d17afe4874de01d71023fc2bb66.jpg"/>
+					<h1  class="h1" data-swiper-parallax="1" data-swiper-parallax-opacity="0"   style="color:#fff">NEW ARRIVAL</h1>
+					<div class="text" style="background: #fff;"></div>
+					<div class="textd"  style="background: rgb(172, 1, 14);"></div>
+				</div>
+				<div class="swiper-slide">
+					<img class="dsfadf" src="https://img.niucache.com/service/www/slider/7304b790280dfa51da72cb25690be9fc.jpg"/>
+					<h1 class="h1" data-swiper-parallax="1" data-swiper-parallax-opacity="0"   style="color:rgb(172, 1, 14)">NEW ARRIVAL</h1>
+					<div class="text" style="background: rgb(172, 1, 14);"></div>
+					<div class="textd"  style="background: #fff;"></div>
+				</div>
+				<div class="swiper-slide">
+					<img class="dsfadf" src="https://img.niucache.com/service/www/slider/45d41dff2dec77c77e17b0d9099bf33f.jpg"/>
+					<h1 class="h1" style="color:#fff">NEW ARRIVAL</h1>
+					<div class="text" style="background: #fff;"></div>
+					<div class="textd"  style="background: rgb(172, 1, 14);"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footers">
+			<ul>
+				<li>
+					<p>了解产品</p>
+					<span><a href="./spring_machine.html">弹簧机</a></span>
+					<span><a href="./arm_machine.html">机械臂机</a></span>
+					<span><a href="./beverage_machine.html">蛇形货道机</a></span>
+					<span><a href="./semi_open_machine.html">智能货柜</a></span>
+					<span><a href="https://zsmall.zongs365.com/#/machine?qwerqwre=4" target="_blank">特殊机型</a></span>
+				</li>
+				<li>
+					<p>帮助中心</p>
+					<span><a href="machineexplain.html">设备租赁指南</a></span>
+					<span><a href="goodsexplain.html">商品购买指南</a></span>
+				</li>
+				<li>
+					<p>关于我们</p>
+					<span><a href="./about_us.html#aboutUs_01">公司介绍</a></span>
+					<span><a href="./about_us.html#aboutUs_02">公司价值观</a></span>
+					<span><a href="./about_us.html#aboutUs_03">团队介绍</a></span>
+				</li>
+				<li>
+					<p>媒体中心</p>
+					<span><a href="new.html">新闻</a></span>
+				</li>
+				<li><p style="text-align: center;">关注我们</p>
+					<span><img class="pic" src="image/rcode.jpg" alt/></span>
+				</li>
+				<li><p>客服</p>
+					<span>400-759-0001</span>
+					<span>周一至周五 9:00到18:00</span>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="js/index.js"></script>
+	<script type='text/javascript' src='https://webchat.7moor.com/javascripts/7moorInit.js?accessId=d27ca950-7876-11e9-b807-3f6dd89a5b76&autoShow=false&language=ZHCN' async='async'></script>
+</body>
+</html>
