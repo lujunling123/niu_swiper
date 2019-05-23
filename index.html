@@ -26,13 +26,12 @@
 		var mySwiper = new Swiper('.swiper-container',{
 			// speed:1000,
 			autoplay: {
-				delay: 4000,//1秒切换一次
+				delay: 4000,
 			},
 			loop: true,
 			parallax : true,
 			on:{
 				slideChangeTransitionStart: function(){
-					// document.getElementsByClassName('h1')[this.activeIndex].style.opacity='1'
 					document.getElementsByClassName('text')[this.activeIndex].style.display='block'
 					document.getElementsByClassName('textd')[this.activeIndex].style.display='none'
 					document.getElementsByClassName('textd')[this.activeIndex].style.width='0%'
@@ -46,8 +45,6 @@
 						document.getElementsByClassName('text')[this.activeIndex].style.width='0%'
 					setTimeout(function(){
 						document.getElementsByClassName('textd')[i].style.width='50%'
-						// document.getElementsByClassName('h1')[i].style.opacity='0'
-						console.log('ddd')
 					},500)
 				}
   		},
